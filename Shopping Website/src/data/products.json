@@ -1,0 +1,495 @@
+[
+    {
+        "id": 1,
+        "title": "Classic Leather Jacket",
+        "price": 199.99,
+        "description": "Handcrafted from premium full-grain leather, this classic jacket features a timeless design with a modern fit. Lined with soft satin for comfort, it includes zippered pockets and adjustable waist tabs. Perfect for layering over casual or dressy outfits.",
+        "category": "men's clothing",
+        "brand": "UrbanCraft",
+        "images": [
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600",
+            "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=600",
+            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "Black",
+            "Brown",
+            "Tan"
+        ],
+        "material": "Genuine Leather",
+        "rating": {
+            "rate": 4.8,
+            "count": 312
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 2,
+        "title": "Slim Fit Denim Jeans",
+        "price": 69.99,
+        "description": "Modern slim-fit jeans made from premium stretch denim for all-day comfort. Features a classic five-pocket design, reinforced stitching, and a mid-rise waist. Versatile enough for both casual and smart-casual looks.",
+        "category": "men's clothing",
+        "brand": "DenimCo",
+        "images": [
+            "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600",
+            "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600",
+            "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=600"
+        ],
+        "sizes": [
+            "28",
+            "30",
+            "32",
+            "34",
+            "36"
+        ],
+        "colors": [
+            "Dark Blue",
+            "Light Blue",
+            "Black"
+        ],
+        "material": "98% Cotton, 2% Elastane",
+        "rating": {
+            "rate": 4.5,
+            "count": 478
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 3,
+        "title": "Floral Maxi Dress",
+        "price": 89.99,
+        "description": "A stunning floral maxi dress with a flowing silhouette that flatters every figure. Features a V-neckline, adjustable spaghetti straps, and a hidden side zipper. Made from lightweight chiffon, it's perfect for summer events and vacation wear.",
+        "category": "women's clothing",
+        "brand": "Elegance",
+        "images": [
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600",
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600",
+            "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600"
+        ],
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Floral Blue",
+            "Floral Pink",
+            "Floral White"
+        ],
+        "material": "100% Chiffon",
+        "rating": {
+            "rate": 4.7,
+            "count": 256
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 4,
+        "title": "Wireless Noise-Cancelling Headphones",
+        "price": 249.99,
+        "description": "Experience premium audio with these wireless over-ear headphones featuring active noise cancellation. With 30-hour battery life, touch controls, and Hi-Res audio support, they deliver studio-quality sound wherever you go. Foldable design for easy portability.",
+        "category": "electronics",
+        "brand": "SoundMax",
+        "images": [
+            "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+            "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600",
+            "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=600"
+        ],
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Midnight Black",
+            "Silver",
+            "Rose Gold"
+        ],
+        "material": "Premium Plastic & Leather Cushions",
+        "rating": {
+            "rate": 4.9,
+            "count": 1024
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 5,
+        "title": "Diamond Pendant Necklace",
+        "price": 499.99,
+        "description": "A breathtaking pendant necklace featuring a 0.5-carat round brilliant diamond set in 18K white gold. The delicate chain complements the sparkling centerpiece, making it perfect for special occasions or everyday luxury. Comes with a certificate of authenticity.",
+        "category": "jewelry",
+        "brand": "LuxeGems",
+        "images": [
+            "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600",
+            "https://images.unsplash.com/photo-1515562141589-67f0d63f1fa1?w=600",
+            "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600"
+        ],
+        "sizes": [
+            "16 inch",
+            "18 inch",
+            "20 inch"
+        ],
+        "colors": [
+            "White Gold",
+            "Yellow Gold",
+            "Rose Gold"
+        ],
+        "material": "18K Gold & Diamond",
+        "rating": {
+            "rate": 4.9,
+            "count": 189
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 6,
+        "title": "Ultra-Slim Smartwatch",
+        "price": 329.99,
+        "description": "Stay connected with this ultra-slim smartwatch featuring a vibrant AMOLED display, heart rate monitoring, GPS tracking, and 7-day battery life. Water-resistant up to 50m with 100+ workout modes. Compatible with iOS and Android.",
+        "category": "electronics",
+        "brand": "TechPulse",
+        "images": [
+            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+            "https://images.unsplash.com/photo-1546868871-af0de0ae72be?w=600",
+            "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600"
+        ],
+        "sizes": [
+            "40mm",
+            "44mm"
+        ],
+        "colors": [
+            "Space Black",
+            "Silver",
+            "Midnight Blue"
+        ],
+        "material": "Titanium & Sapphire Glass",
+        "rating": {
+            "rate": 4.6,
+            "count": 734
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 7,
+        "title": "Cashmere Crew Neck Sweater",
+        "price": 149.99,
+        "description": "Luxuriously soft 100% cashmere sweater with a classic crew neck design. Lightweight yet warm, this sweater is perfect for layering or wearing on its own. Features ribbed cuffs and hem for a polished finish.",
+        "category": "men's clothing",
+        "brand": "CashmereClub",
+        "images": [
+            "https://images.unsplash.com/photo-1434389677669-e08b4cda3a44?w=600",
+            "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600",
+            "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?w=600"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Charcoal",
+            "Navy",
+            "Cream",
+            "Burgundy"
+        ],
+        "material": "100% Cashmere",
+        "rating": {
+            "rate": 4.7,
+            "count": 198
+        },
+        "featured": false,
+        "inStock": true
+    },
+    {
+        "id": 8,
+        "title": "High-Waist Yoga Leggings",
+        "price": 59.99,
+        "description": "Designed for performance and style, these high-waist yoga leggings offer four-way stretch, moisture-wicking fabric, and a supportive compression fit. Features a hidden waistband pocket and flatlock seams to prevent chafing.",
+        "category": "women's clothing",
+        "brand": "FlexFit",
+        "images": [
+            "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600",
+            "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=600",
+            "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?w=600"
+        ],
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Navy",
+            "Olive",
+            "Charcoal"
+        ],
+        "material": "Nylon & Spandex Blend",
+        "rating": {
+            "rate": 4.8,
+            "count": 567
+        },
+        "featured": false,
+        "inStock": true
+    },
+    {
+        "id": 9,
+        "title": "Portable Bluetooth Speaker",
+        "price": 79.99,
+        "description": "Take your music anywhere with this rugged, waterproof Bluetooth speaker. Delivers 360° sound with deep bass, 20-hour battery life, and IPX7 water resistance. Built-in microphone for hands-free calls and voice assistant support.",
+        "category": "electronics",
+        "brand": "SoundMax",
+        "images": [
+            "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600",
+            "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=600",
+            "https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=600"
+        ],
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Midnight Black",
+            "Ocean Blue",
+            "Forest Green"
+        ],
+        "material": "IPX7 Waterproof Composite",
+        "rating": {
+            "rate": 4.5,
+            "count": 892
+        },
+        "featured": false,
+        "inStock": true
+    },
+    {
+        "id": 10,
+        "title": "Gold Hoop Earrings",
+        "price": 129.99,
+        "description": "Elegant 14K gold hoop earrings with a modern twisted design. Lightweight and comfortable for all-day wear, these versatile earrings transition seamlessly from day to night. Hypoallergenic and tarnish-resistant.",
+        "category": "jewelry",
+        "brand": "LuxeGems",
+        "images": [
+            "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600",
+            "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=600",
+            "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=600"
+        ],
+        "sizes": [
+            "Small (25mm)",
+            "Medium (35mm)",
+            "Large (45mm)"
+        ],
+        "colors": [
+            "Gold",
+            "Rose Gold",
+            "Silver"
+        ],
+        "material": "14K Gold",
+        "rating": {
+            "rate": 4.6,
+            "count": 321
+        },
+        "featured": false,
+        "inStock": true
+    },
+    {
+        "id": 11,
+        "title": "Cotton Oxford Shirt",
+        "price": 54.99,
+        "description": "A wardrobe essential crafted from premium Oxford cotton. Features a button-down collar, chest pocket, and a relaxed fit that works tucked in or out. Garment-washed for a perfectly soft, lived-in feel from day one.",
+        "category": "men's clothing",
+        "brand": "UrbanCraft",
+        "images": [
+            "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600",
+            "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600",
+            "https://images.unsplash.com/photo-1598033129183-c4f50c736c10?w=600"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "colors": [
+            "White",
+            "Light Blue",
+            "Pink",
+            "Sage"
+        ],
+        "material": "100% Oxford Cotton",
+        "rating": {
+            "rate": 4.4,
+            "count": 412
+        },
+        "featured": false,
+        "inStock": true
+    },
+    {
+        "id": 12,
+        "title": "Silk Blouse",
+        "price": 119.99,
+        "description": "Effortlessly elegant silk blouse with a relaxed silhouette and hidden button placket. The lustrous fabric drapes beautifully, creating a polished look for the office or evening events. Machine-washable for easy care.",
+        "category": "women's clothing",
+        "brand": "Elegance",
+        "images": [
+            "https://images.unsplash.com/photo-1551489186-cf8726f514f8?w=600",
+            "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=600",
+            "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=600"
+        ],
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ],
+        "colors": [
+            "Ivory",
+            "Blush",
+            "Black",
+            "Emerald"
+        ],
+        "material": "100% Mulberry Silk",
+        "rating": {
+            "rate": 4.6,
+            "count": 178
+        },
+        "featured": false,
+        "inStock": true
+    },
+    {
+        "id": 13,
+        "title": "Mechanical Keyboard",
+        "price": 159.99,
+        "description": "Premium mechanical keyboard with hot-swappable switches, RGB backlighting, and a CNC aluminum frame. Features PBT double-shot keycaps, gasket mount design, and programmable macros. Available in multiple switch types for your preferred feel.",
+        "category": "electronics",
+        "brand": "TechPulse",
+        "images": [
+            "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600",
+            "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600",
+            "https://images.unsplash.com/photo-1595225476474-87563907a212?w=600"
+        ],
+        "sizes": [
+            "65%",
+            "75%",
+            "Full Size"
+        ],
+        "colors": [
+            "Space Gray",
+            "White",
+            "Black"
+        ],
+        "material": "Aluminum & PBT Plastic",
+        "rating": {
+            "rate": 4.8,
+            "count": 643
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 14,
+        "title": "Sterling Silver Bracelet",
+        "price": 89.99,
+        "description": "A sleek sterling silver chain bracelet with a modern minimalist design. Features a secure lobster clasp and an adjustable chain extension. Rhodium-plated for extra durability and lasting shine.",
+        "category": "jewelry",
+        "brand": "LuxeGems",
+        "images": [
+            "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600",
+            "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600",
+            "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=600"
+        ],
+        "sizes": [
+            "6.5 inch",
+            "7 inch",
+            "7.5 inch",
+            "8 inch"
+        ],
+        "colors": [
+            "Silver",
+            "Gold-Plated",
+            "Rose Gold-Plated"
+        ],
+        "material": "925 Sterling Silver",
+        "rating": {
+            "rate": 4.5,
+            "count": 234
+        },
+        "featured": false,
+        "inStock": true
+    },
+    {
+        "id": 15,
+        "title": "Running Sneakers Pro",
+        "price": 139.99,
+        "description": "Engineered for performance, these running sneakers feature responsive cushioning, a breathable mesh upper, and a durable rubber outsole. The lightweight construction and adaptive fit technology provide a smooth, natural stride mile after mile.",
+        "category": "men's clothing",
+        "brand": "FlexFit",
+        "images": [
+            "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+            "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600",
+            "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600"
+        ],
+        "sizes": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "colors": [
+            "Red/Black",
+            "White/Blue",
+            "All Black"
+        ],
+        "material": "Mesh & Rubber",
+        "rating": {
+            "rate": 4.7,
+            "count": 891
+        },
+        "featured": true,
+        "inStock": true
+    },
+    {
+        "id": 16,
+        "title": "Oversized Sunglasses",
+        "price": 79.99,
+        "description": "Make a statement with these oversized designer sunglasses. Featuring UV400 protection lenses, lightweight acetate frames, and a retro-inspired shape. Comes with a premium case and lens cleaning cloth.",
+        "category": "women's clothing",
+        "brand": "Elegance",
+        "images": [
+            "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600",
+            "https://images.unsplash.com/photo-1577803645773-f96470509666?w=600",
+            "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=600"
+        ],
+        "sizes": [
+            "One Size"
+        ],
+        "colors": [
+            "Tortoise",
+            "Black",
+            "Crystal Pink"
+        ],
+        "material": "Acetate & UV400 Lenses",
+        "rating": {
+            "rate": 4.4,
+            "count": 356
+        },
+        "featured": false,
+        "inStock": true
+    }
+]

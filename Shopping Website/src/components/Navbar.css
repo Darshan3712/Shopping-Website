@@ -1,0 +1,210 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--navbar-height);
+    z-index: 1000;
+    transition: all var(--transition-normal);
+    background: transparent;
+}
+
+.navbar--scrolled {
+    background: var(--bg-glass);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border-glass);
+    box-shadow: var(--shadow-md);
+}
+
+.navbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    gap: var(--space-lg);
+}
+
+/* Logo */
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-size: var(--font-xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    flex-shrink: 0;
+}
+
+.navbar__logo-icon {
+    font-size: var(--font-2xl);
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Menu */
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xl);
+    flex: 1;
+    justify-content: center;
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.navbar__links a {
+    padding: 0.5rem 1rem;
+    font-size: var(--font-sm);
+    font-weight: 500;
+    color: var(--text-secondary);
+    border-radius: var(--radius-full);
+    transition: all var(--transition-fast);
+    position: relative;
+}
+
+.navbar__links a:hover,
+.navbar__links a.active {
+    color: var(--text-primary);
+    background: rgba(108, 99, 255, 0.1);
+}
+
+.navbar__links a.active {
+    color: var(--accent-primary);
+}
+
+/* Search */
+.navbar__search {
+    display: flex;
+    align-items: center;
+    background: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    border-radius: var(--radius-full);
+    padding: 0.5rem 1rem;
+    gap: var(--space-sm);
+    width: 240px;
+    transition: all var(--transition-normal);
+}
+
+.navbar__search:focus-within {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.15);
+    width: 300px;
+}
+
+.navbar__search-icon {
+    color: var(--text-muted);
+    font-size: var(--font-md);
+    flex-shrink: 0;
+}
+
+.navbar__search input {
+    background: none;
+    color: var(--text-primary);
+    font-size: var(--font-sm);
+    width: 100%;
+}
+
+.navbar__search input::placeholder {
+    color: var(--text-muted);
+}
+
+/* Actions */
+.navbar__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-shrink: 0;
+}
+
+.navbar__cart {
+    position: relative;
+    font-size: 1.35rem;
+    color: var(--text-primary);
+    padding: 0.5rem;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.navbar__cart:hover {
+    color: var(--accent-primary);
+    background: rgba(108, 99, 255, 0.1);
+}
+
+.navbar__cart-badge {
+    position: absolute;
+    top: -2px;
+    right: -6px;
+    background: var(--accent-secondary);
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    min-width: 18px;
+    height: 18px;
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    animation: fadeInUp 0.3s ease;
+}
+
+.navbar__hamburger {
+    display: none;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    padding: 0.25rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navbar__hamburger {
+        display: flex;
+    }
+
+    .navbar__menu {
+        position: fixed;
+        top: var(--navbar-height);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: var(--space-xl);
+        gap: var(--space-lg);
+        background: var(--bg-secondary);
+        transform: translateX(100%);
+        transition: transform var(--transition-normal);
+        overflow-y: auto;
+    }
+
+    .navbar__menu--open {
+        transform: translateX(0);
+    }
+
+    .navbar__links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar__links a {
+        width: 100%;
+        padding: 1rem;
+        font-size: var(--font-lg);
+        text-align: center;
+    }
+
+    .navbar__search {
+        width: 100%;
+    }
+
+    .navbar__search:focus-within {
+        width: 100%;
+    }
+}
